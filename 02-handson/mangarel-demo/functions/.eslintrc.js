@@ -41,6 +41,14 @@ module.exports = {
   ],
   root: true,
   rules: {
+    "camelcase": "off",
+    "@typescript-eslint/naming-convention": [
+      "off",
+      {
+        "selector": "default",
+        "format": null
+      }
+    ],
     // eslint official
     'linebreak-style': ['error', 'unix'],
     'newline-before-return': 'error',
